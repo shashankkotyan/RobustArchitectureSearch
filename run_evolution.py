@@ -282,7 +282,7 @@ def to_bool(arg_bool):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=('Robust Architecture Search'))
 
     # Use for creating and mutating individual of population
     parser.add_argument("--use_cycles",             "-cy",   action="store_false",            help="if not to use cycles in populations")

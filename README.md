@@ -1,6 +1,6 @@
 # Robust Architecture Search
 
-This github repository contains the official code for the paper, _"Evolving Robust Neural Architectures to Defend from Adversarial Attacks"_ **[Paper Link](https://arxiv.org/abs/1906.11667)**
+This github repository contains the official code for the paper,
 
 > [Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
 > Danilo Vasconcellos Vargas, Shashank Kotyan\
@@ -18,10 +18,10 @@ If this work helps your research and/or project in anyway, please cite:
 
 ```
 @article{vargas2019evolving,
-  title={Evolving Robust Neural Architectures to Defend from Adversarial Attacks},
-  author={Vargas, Danilo Vasconcellos and Kotyan, Shashank},
-  journal={arXiv preprint arXiv:1906.11667},
-  year={2019}
+  title   = {Evolving Robust Neural Architectures to Defend from Adversarial Attacks},
+  author  = {Vargas, Danilo Vasconcellos and Kotyan, Shashank},
+  journal = {arXiv preprint arXiv:1906.11667},
+  year    = {2019}
 }
 ```
 
@@ -33,7 +33,9 @@ The code is tested on Ubuntu 18.04.3 with Python 3.7.4.
 
 ### Requirements
 
-To run the code in the tutorial locally, a dedicated GPU suitable for running with (`tensorflow-gpu`) is recommended. It is recommended to install Anaconda. 
+To run the code in the tutorial locally, it is recommended, 
+- a dedicated GPU suitable for running, and
+- install Anaconda. 
 
 The following python packages are required to run the code. 
 - `GPUtil==1.4.0`
@@ -73,13 +75,20 @@ pip install -r ./requirements.txt
 python -u run_evolution.py [ARGS] > run.txt
 ```
 
+5. Calculate the statstics for the evolution.
+
+```bash
+python -u run_stats.py > run_stats.txt     
+```
+
 ## Arguments to run run_evolution.py
 
 TBD
 
 ## Notes
 
-- It is recommended to run the code on a multi-gpu system to ensure faster evolution. However, changing the number of workers in `num_workers.txt` to 1 will ensure run the on a single GPU system. Setting `num_workers.txt` to number of GPUs your system has will run the code optimally utilising maximum performance by the GPUs.
+- It is recommended to run the code on a multi-gpu system to ensure faster evolution. However, changing the number of workers in `num_workers.txt` to 1 will ensure the evolution on a single GPU system. 
+- Setting `num_workers.txt` to number of GPUs your system has will run the code optimally utilising maximum performance by the GPUs.
 
 ## Milestones
 
