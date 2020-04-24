@@ -1,18 +1,19 @@
 # Robust Architecture Search
 
-This github repository contains the official code for the paper,
+This github repository contains the official code for the papers,
 
 > [Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
 > Danilo Vasconcellos Vargas, Shashank Kotyan\
 > _arXiv:1906.11667_.
 > 
-> [Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
-> Shashank Kotyan and Danilo Vasconcellos Vargas\
-> GECCO 2020
-> 
 > [Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?](https://arxiv.org/abs/1906.11667)\
 > Shashank Kotyan and Danilo Vasconcellos Vargas\
-> JSAI 2020
+> JSAI 2020 (Accepted)
+> 
+> [Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
+> Shashank Kotyan and Danilo Vasconcellos Vargas\
+> GECCO 2020 (Accepted)
+> 
  
 # IMPORTANT
 
@@ -24,17 +25,10 @@ This github repository contains the official code for the paper,
 
 If this work helps your research and/or project in anyway, please cite:
 
-```
+```bibtex
 @article{vargas2019evolving,
   title   = {Evolving Robust Neural Architectures to Defend from Adversarial Attacks},
   author  = {Vargas, Danilo Vasconcellos and Kotyan, Shashank},
-  journal = {arXiv preprint arXiv:1906.11667},
-  year    = {2019}
-}
-
-@article{kotyan2019towards,
-  title   = {Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks},
-  author  = {Kotyan, Shashank and Vargas, Danilo Vasconcellos},
   journal = {arXiv preprint arXiv:1906.11667},
   year    = {2019}
 }
