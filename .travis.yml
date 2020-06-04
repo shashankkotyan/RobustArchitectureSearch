@@ -1,0 +1,14 @@
+dist: xenial
+language: python
+env:
+  - KERAS_BACKEND=tensorflow TENSORFLOW_V=2.1.0
+python:
+   - "3.7"
+
+install:
+  - python -m pip install --upgrade pip==19.3.1 setuptools wheel
+  - pip install -q -r requirements.txt
+  - pip list
+
+script:
+  - ./run_unit_test.sh
