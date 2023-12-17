@@ -4,15 +4,15 @@ This github repository contains the official code for the papers,
 
 > [Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://dl.acm.org/doi/abs/10.1145/3377929.3389962)\
 > Shashank Kotyan and Danilo Vasconcellos Vargas\
-> GECCO 2020 (Accepted)
+> GECCO (2020).
 > 
 > [Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://ceur-ws.org/Vol-2640/paper_1.pdf)\
 > Shashank Kotyan and Danilo Vasconcellos Vargas,\
-> AISafety Workshop 2020 (Accepted).
+> AISafety Workshop (2020).
 > 
 > [Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_2K1ES203/_article/-char/ja/)\
 > Shashank Kotyan and Danilo Vasconcellos Vargas\
-> JSAI 2020 (Accepted)
+> JSAI (2020).
 > 
  
 # IMPORTANT
