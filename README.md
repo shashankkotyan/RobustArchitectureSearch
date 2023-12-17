@@ -2,17 +2,17 @@
 
 This github repository contains the official code for the papers,
 
-> [Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
-> Danilo Vasconcellos Vargas, Shashank Kotyan\
-> _arXiv:1906.11667_.
-> 
-> [Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?](https://arxiv.org/abs/1906.11667)\
-> Shashank Kotyan and Danilo Vasconcellos Vargas\
-> JSAI 2020 (Accepted)
-> 
-> [Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://arxiv.org/abs/1906.11667)\
+> [Towards Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://dl.acm.org/doi/abs/10.1145/3377929.3389962)\
 > Shashank Kotyan and Danilo Vasconcellos Vargas\
 > GECCO 2020 (Accepted)
+> 
+> [Evolving Robust Neural Architectures to Defend from Adversarial Attacks](https://ceur-ws.org/Vol-2640/paper_1.pdf)\
+> Shashank Kotyan and Danilo Vasconcellos Vargas,\
+> AISafety Workshop 2020 (Accepted).
+> 
+> [Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_2K1ES203/_article/-char/ja/)\
+> Shashank Kotyan and Danilo Vasconcellos Vargas\
+> JSAI 2020 (Accepted)
 > 
  
 # IMPORTANT
@@ -26,15 +26,35 @@ This github repository contains the official code for the papers,
 If this work helps your research and/or project in anyway, please cite:
 
 ```bibtex
-@article{vargas2019evolving,
-  title   = {Evolving Robust Neural Architectures to Defend from Adversarial Attacks},
-  author  = {Vargas, Danilo Vasconcellos and Kotyan, Shashank},
-  journal = {arXiv preprint arXiv:1906.11667},
-  year    = {2019}
+@inproceedings{kotyan2020towards,
+  title={Towards evolving robust neural architectures to defend from adversarial attacks},
+  author={Kotyan, Shashank and Vargas, Danilo Vasconcellos},
+  booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion},
+  pages={135--136},
+  year={2020}
 }
+
+@inproceedings{kotyan2020evolving,
+  title={Towards evolving robust neural architectures to defend from adversarial attacks},
+  author={Kotyan, Shashank and Vargas, Danilo Vasconcellos},
+  maintitle = {International Joint Conference on Artificial Intelligence - Pacific Rim International Conference on Artificial Intelligence (IJCAI-PRICAI)},
+  booktitle = {Workshop on the AISafety},
+  year={2020}
+}
+
+@inproceedings{kotyan2020neural,
+  title={Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?},
+  author={Kotyan, Shashank and Vargas, Danilo Vasconcellos},
+  booktitle={人工知能学会全国大会論文集 第 34 回 (2020)},
+  pages={2K1ES203--2K1ES203},
+  year={2020},
+  organization={一般社団法人 人工知能学会}
+}
+
+
 ```
 
-## Testing Environment 
+## Testing Environment
 
 The code is tested on Ubuntu 18.04.3 with Python 3.7.4.
 
